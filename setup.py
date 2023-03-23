@@ -15,7 +15,9 @@ with open("README.md", "r") as fh:
 packages = setuptools.find_packages()
 
 install_requires = [
-    "redis>=4.3.4",
+    "requests~=2.28.2",
+    "w3lib~=2.1.1",
+    "setuptools~=65.6.3"
 ]
 
 extras_requires = ["PyExecJS>=1.5.1"]
